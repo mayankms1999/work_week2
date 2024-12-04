@@ -14,6 +14,7 @@ import java.time.LocalDate;
 @Table(name = "employees")
 public class EmployeeEntity {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -25,4 +26,6 @@ public class EmployeeEntity {
     private Boolean isActive;
     private String role;
     private Double salary;
+
+
 }
